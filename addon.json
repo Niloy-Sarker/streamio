@@ -1,6 +1,6 @@
 {
   "id": "com.dflix.streamer",
-  "name": "DFlix Streamer",
+  "name": "dflix-streamer",
   "version": "1.0.0",
   "description": "DFlix addon for Streamio providing direct streaming links for movies and series",
   "resources": [
