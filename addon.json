@@ -1,0 +1,67 @@
+{
+  "id": "com.dflix.streamer",
+  "name": "DFlix Streamer",
+  "version": "1.0.0",
+  "description": "DFlix addon for Streamio providing direct streaming links for movies and series",
+  "resources": [
+    "catalog",
+    "stream",
+    "meta"
+  ],
+  "types": [
+    "series",
+    "anime",
+    "tv",
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "dflix_series_catalog",
+      "name": "DFlix Series",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": true
+        }
+      ]
+    },
+    {
+      "type": "anime",
+      "id": "dflix_anime_catalog",
+      "name": "DFlix Anime",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": true
+        }
+      ]
+    },
+    {
+      "type": "tv",
+      "id": "dflix_tv_catalog",
+      "name": "DFlix TV",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": true
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "dflix_movies_catalog",
+      "name": "DFlix Movies",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": true
+        }
+      ]
+    }
+  ],
+  "behaviorHints": {
+    "adult": false,
+    "p2p": false
+  }
+} 
